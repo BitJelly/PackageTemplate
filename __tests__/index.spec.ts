@@ -1,4 +1,5 @@
-import { Greeter } from '../src/';
+import { greeter } from '../src/';
 test('My Greeter', () => {
-	expect(Greeter('Dan')).toBe('Hello Dan');
+	expect(greeter('Dan','Hello'))
+	.toBe('Hello Dan');
 });
