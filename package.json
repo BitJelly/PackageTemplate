@@ -17,10 +17,12 @@
 		"lint": "tslint -p tsconfig.json",
 		"test": "jest",
 		"test:watch": "jest --watch",
-		"release": "npm publish"
+		"release": "npm publish",
+		"tslint-check": "tslint-config-prettier-check ./tslint.json"
 	},
 	"devDependencies": {
 		"@types/jest": "^23.3.10",
+		"@types/node": "^10.12.18",
 		"jest": "^23.6.0",
 		"prettier": "^1.15.3",
 		"ts-jest": "^23.10.5",
@@ -37,15 +39,15 @@
 	},
 	"prettier": {
 		"arrowParens": "avoid",
-		"bracketSpacing": true,
-		"jsxBracketSameLine": false,
-		"jsxSingleQuote": true,
-		"printWidth": 100,
-		"proseWrap": "always",
-		"semi": true,
-		"singleQuote": false,
-		"tabWidth": 4,
-		"trailingComma": "none",
-		"useTabs": true
-	}
+		"printWidth": 120,
+        "bracketSpacing": false,
+        "jsxBracketSameLine": false,
+        "jsxSingleQuote": true,
+        "proseWrap": "always",
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "none",
+        "useTabs": true
+    }
 }
