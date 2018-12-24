@@ -109,7 +109,7 @@
 		"no-object-literal-type-assertion": true,
 		"no-parameter-properties": true,
 		"no-parameter-reassignment": true,
-		"no-redundant-jsdoc": true,
+		"no-redundant-jsdoc": false,
 		"no-reference": true,
 		"no-reference-import": true,
 		"no-require-imports": true,
@@ -131,7 +131,6 @@
 		"no-unsafe-any": true,
 		"no-unsafe-finally": true,
 		"no-unused-expression": true,
-		"no-unused-variable": true,
 		"no-use-before-declare": true,
 		"no-var-keyword": true,
 		"no-var-requires": true,
@@ -198,7 +197,6 @@
 				"variable-declaration": "nospace"
 			}
 		],
-		"typeof-compare": true,
 		"unified-signatures": true,
 		"use-default-type-parameter": true,
 		"use-isnan": true,
