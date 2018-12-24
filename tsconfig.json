@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"lib": ["esnext"],
+		"declaration": true,
+		"outDir": "./build",
+		"strict": true,
+		"jsx": "react",
+		"removeComments": true,
+		"preserveConstEnums": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": false,
+		"noUnusedParameters": true,
+		"noUnusedLocals": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictPropertyInitialization": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"noEmitOnError": true,
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "**/__tests__/*"]
+}
