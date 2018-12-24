@@ -6,7 +6,14 @@
 	"types": "build/index.d.ts",
 	"author": "<danmandel09@gmail.com>",
 	"license": "MIT",
-	"keywords": [ "Package", "Template" ],
+	"keywords": [
+		"Package",
+		"Template"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/danmandel/PackageTemplate.git"
+	},
 	"scripts": {
 		"prepare": "npm run build",
 		"prepublishOnly": "npm test && npm run lint",
@@ -17,8 +24,8 @@
 		"lint": "tslint -p tsconfig.json",
 		"test": "jest",
 		"test:watch": "jest --watch",
-		"release": "npm publish",
-		"tslint-check": "tslint-config-prettier-check ./tslint.json"
+		"tslint-check": "tslint-config-prettier-check ./tslint.json",
+		"release": "npm publish"
 	},
 	"devDependencies": {
 		"@types/jest": "^23.3.10",
@@ -35,19 +42,27 @@
 			"^.+\\.(t|j)sx?$": "ts-jest"
 		},
 		"testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-		"moduleFileExtensions": [ "ts", "tsx", "js", "jsx", "json", "node" ]
+		"moduleFileExtensions": [
+			"ts",
+			"tsx",
+			"js",
+			"jsx",
+			"json",
+			"node"
+		]
 	},
 	"prettier": {
 		"arrowParens": "avoid",
+		"htmlWhitespaceSensitivity": "css",
 		"printWidth": 120,
-        "bracketSpacing": false,
-        "jsxBracketSameLine": false,
-        "jsxSingleQuote": true,
-        "proseWrap": "always",
-        "semi": true,
-        "singleQuote": true,
-        "tabWidth": 4,
-        "trailingComma": "none",
-        "useTabs": true
-    }
+		"bracketSpacing": false,
+		"jsxBracketSameLine": false,
+		"jsxSingleQuote": true,
+		"proseWrap": "always",
+		"semi": true,
+		"singleQuote": true,
+		"tabWidth": 4,
+		"trailingComma": "none",
+		"useTabs": true
+	}
 }

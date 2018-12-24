@@ -1,5 +1,5 @@
 {
-	"extends": ["tslint-config-prettier"],
+	"extends": [],
 	"defaultSeverity": "error",
 	"linterOptions": {
 		"exclude": ["test", "node_modules/**/*.ts", "coverage/lcov-report/*.js"]
