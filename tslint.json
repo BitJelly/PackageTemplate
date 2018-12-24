@@ -93,7 +93,7 @@
 		"no-floating-promises": true,
 		"no-for-in-array": true,
 		"no-implicit-dependencies": true,
-		"no-import-side-effect": [true, { "ignore-module": "(\\.html|\\.css)$" }],
+		"no-import-side-effect": [true, {"ignore-module": "(\\.html|\\.css)$"}],
 		"no-inferrable-types": false,
 		"no-inferred-empty-object-type": true,
 		"no-internal-module": true,
@@ -151,7 +151,7 @@
 		"prefer-method-signature": false,
 		"prefer-object-spread": true,
 		"prefer-readonly": true,
-		"prefer-switch": [true, { "min-cases": 3 }],
+		"prefer-switch": [true, {"min-cases": 3}],
 		"prefer-template": true,
 		"prefer-while": true,
 		"promise-function-async": true,
@@ -202,13 +202,7 @@
 		"unified-signatures": true,
 		"use-default-type-parameter": true,
 		"use-isnan": true,
-		"variable-name": [
-			true,
-			"ban-keywords",
-			"check-format",
-			"allow-leading-underscore",
-			"allow-snake-case"
-		],
+		"variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-snake-case"],
 		"whitespace": [true, "check-branch", "check-operator", "check-typecast"]
 	}
 }
